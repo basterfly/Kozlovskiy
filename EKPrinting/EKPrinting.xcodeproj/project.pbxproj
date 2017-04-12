@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		456671C41E9CD5DA00197C97 /* EKSignedToUnsigned.c in Sources */ = {isa = PBXBuildFile; fileRef = 456671C21E9CD5DA00197C97 /* EKSignedToUnsigned.c */; };
+		456DB3AA1E9C49F800909CE6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 456DB3A71E9C49F800909CE6 /* main.c */; };
+		456DB3B61E9C4ED300909CE6 /* EKNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 456DB3B11E9C4ED300909CE6 /* EKNumbers.c */; };
+		456DB3B71E9C4ED300909CE6 /* EKPrinting.c in Sources */ = {isa = PBXBuildFile; fileRef = 456DB3B41E9C4ED300909CE6 /* EKPrinting.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		456DB3971E9C491700909CE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		456671C21E9CD5DA00197C97 /* EKSignedToUnsigned.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKSignedToUnsigned.c; sourceTree = "<group>"; };
+		456671C31E9CD5DA00197C97 /* EKSignedToUnsigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSignedToUnsigned.h; sourceTree = "<group>"; };
+		456DB3991E9C491700909CE6 /* EKPrinting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKPrinting; sourceTree = BUILT_PRODUCTS_DIR; };
+		456DB3A71E9C49F800909CE6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		456DB3B11E9C4ED300909CE6 /* EKNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKNumbers.c; sourceTree = "<group>"; };
+		456DB3B21E9C4ED300909CE6 /* EKNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKNumbers.h; sourceTree = "<group>"; };
+		456DB3B41E9C4ED300909CE6 /* EKPrinting.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKPrinting.c; sourceTree = "<group>"; };
+		456DB3B51E9C4ED300909CE6 /* EKPrinting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKPrinting.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		456DB3961E9C491700909CE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		456671C11E9CD5A000197C97 /* EKSignedToUnsigned */ = {
+			isa = PBXGroup;
+			children = (
+				456671C21E9CD5DA00197C97 /* EKSignedToUnsigned.c */,
+				456671C31E9CD5DA00197C97 /* EKSignedToUnsigned.h */,
+			);
+			path = EKSignedToUnsigned;
+			sourceTree = "<group>";
+		};
+		456DB3901E9C491700909CE6 = {
+			isa = PBXGroup;
+			children = (
+				456DB39B1E9C491700909CE6 /* EKPrinting */,
+				456DB39A1E9C491700909CE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		456DB39A1E9C491700909CE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				456DB3991E9C491700909CE6 /* EKPrinting */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		456DB39B1E9C491700909CE6 /* EKPrinting */ = {
+			isa = PBXGroup;
+			children = (
+				456671C11E9CD5A000197C97 /* EKSignedToUnsigned */,
+				456DB3B01E9C4ED300909CE6 /* EKNumbers */,
+				456DB3B31E9C4ED300909CE6 /* EKPrinting */,
+				456DB3A71E9C49F800909CE6 /* main.c */,
+			);
+			path = EKPrinting;
+			sourceTree = "<group>";
+		};
+		456DB3B01E9C4ED300909CE6 /* EKNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				456DB3B11E9C4ED300909CE6 /* EKNumbers.c */,
+				456DB3B21E9C4ED300909CE6 /* EKNumbers.h */,
+			);
+			path = EKNumbers;
+			sourceTree = "<group>";
+		};
+		456DB3B31E9C4ED300909CE6 /* EKPrinting */ = {
+			isa = PBXGroup;
+			children = (
+				456DB3B41E9C4ED300909CE6 /* EKPrinting.c */,
+				456DB3B51E9C4ED300909CE6 /* EKPrinting.h */,
+			);
+			path = EKPrinting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		456DB3981E9C491700909CE6 /* EKPrinting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456DB3A01E9C491700909CE6 /* Build configuration list for PBXNativeTarget "EKPrinting" */;
+			buildPhases = (
+				456DB3951E9C491700909CE6 /* Sources */,
+				456DB3961E9C491700909CE6 /* Frameworks */,
+				456DB3971E9C491700909CE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EKPrinting;
+			productName = EKPrinting;
+			productReference = 456DB3991E9C491700909CE6 /* EKPrinting */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		456DB3911E9C491700909CE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yegor Kozlovskiy";
+				TargetAttributes = {
+					456DB3981E9C491700909CE6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 456DB3941E9C491700909CE6 /* Build configuration list for PBXProject "EKPrinting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 456DB3901E9C491700909CE6;
+			productRefGroup = 456DB39A1E9C491700909CE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				456DB3981E9C491700909CE6 /* EKPrinting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		456DB3951E9C491700909CE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456DB3B61E9C4ED300909CE6 /* EKNumbers.c in Sources */,
+				456DB3AA1E9C49F800909CE6 /* main.c in Sources */,
+				456DB3B71E9C4ED300909CE6 /* EKPrinting.c in Sources */,
+				456671C41E9CD5DA00197C97 /* EKSignedToUnsigned.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		456DB39E1E9C491700909CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		456DB39F1E9C491700909CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		456DB3A11E9C491700909CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		456DB3A21E9C491700909CE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		456DB3941E9C491700909CE6 /* Build configuration list for PBXProject "EKPrinting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456DB39E1E9C491700909CE6 /* Debug */,
+				456DB39F1E9C491700909CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456DB3A01E9C491700909CE6 /* Build configuration list for PBXNativeTarget "EKPrinting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456DB3A11E9C491700909CE6 /* Debug */,
+				456DB3A21E9C491700909CE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 456DB3911E9C491700909CE6 /* Project object */;
+}
