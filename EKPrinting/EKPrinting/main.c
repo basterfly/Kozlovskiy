@@ -11,6 +11,9 @@
 #include "EKPrinting.h" 
 #include "EKNumbers.h"
 #include "EKSignedToUnsigned.h"
+#include "EKFunctionPrintTypes.h"
+#include "html2.h"
+#include "EKLecture1HomeWork.h"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -22,6 +25,7 @@ int main(int argc, const char * argv[]) {
     EKNum91();
     EKSignedToUnsigned(INT64_MIN, INT64_MAX);
     EKSignedToUnsigned(WCHAR_MIN, WCHAR_MAX);
+    
     
     char charVar;
     unsigned char unCharVar;
@@ -40,13 +44,39 @@ unShortVar %lu \n longVar %lu \n unLongVar %lu \n floatVar %lu \n doubleVar %lu 
            sizeof(charVar), sizeof(unCharVar), sizeof(sigCharVar), sizeof(IntVar), sizeof(unIntVar), \
            sizeof(shortVar), sizeof(unShortVar), sizeof(longVar), sizeof(unLongVar), sizeof(floatVar), \
            sizeof(doubleVar), sizeof(loDoubleVar));
-   
-    //printf("charVar %lu \n",sizeof(charVar));
     
     int intValue = 3;
     double doubleResult = intValue * intValue / 4 % 7 + 4.0 * intValue - 1.5 + 'A';
     double doubleMyResult = ((intValue * intValue) / (4 % 7)) + (4.0 * intValue) - 1.5 + 'A';
     printf(" doubleResult = %f \n doubleMyResult = %f \n", doubleResult, doubleMyResult);
+    
+    EKhtml2Tasks();
+    int incrVar = 0;
+    int decrVar = 1;
+    EKIncrement(&incrVar);
+    EKDecrement(&decrVar);
+    printf("increment = %d \n", incrVar);
+    printf("decrement = %d \n", decrVar);
+    
+    
+//    int value = 10;
+//    
+//    printf("%d \n", value);//значение
+//    printf("%p \n", &value);//адрес в памяти
+    
+    //doubleResult = doubleResult * doubleResult / 4 % 7 + 4.0 * doubleResult - 1.5 + 'A';
+    double doubleResult2 = 3.0;
+    double result=0;
+    result = (doubleResult2 * doubleResult2);
+    result = result / 4;
+    result = (long)result % 7;//делить по модулю только целое. %-остаток от целочисленного деления
+    doubleResult2 =result + (4.0 * doubleResult2)- 1.5 + 'A';
+    printf("doubleResult2 = %f \n", doubleResult2);
+    
+    EKMathTest();
+    EKVariablesTest();
+    EKPrintSizeofTypes();
+    EKMethodMamaPapa();
     
     return 0;
 }

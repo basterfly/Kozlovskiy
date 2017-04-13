@@ -14,18 +14,7 @@ void EKPrint(){
     printf("\n string3 \n");
     
 }
-//void EKPrint(){
-//    printf("string1  \n");
-//    printf("        string2 ");
-//    printf("\n string3 \n");
-//
-//}
-//void EKPrint(){
-//    printf("string1  \n");
-//    printf("        string2 ");
-//    printf("\n string3 \n");
-//
-//}
+
 void EKPrintParents(void) {
     EKPrint();
     printf("papa \n");

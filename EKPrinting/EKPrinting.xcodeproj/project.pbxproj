@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		456671C41E9CD5DA00197C97 /* EKSignedToUnsigned.c in Sources */ = {isa = PBXBuildFile; fileRef = 456671C21E9CD5DA00197C97 /* EKSignedToUnsigned.c */; };
+		456671CD1E9E574C00197C97 /* EKFunctionPrintTypes.c in Sources */ = {isa = PBXBuildFile; fileRef = 456671CB1E9E574C00197C97 /* EKFunctionPrintTypes.c */; };
+		456671D01E9E682700197C97 /* html2.c in Sources */ = {isa = PBXBuildFile; fileRef = 456671CE1E9E682700197C97 /* html2.c */; };
+		456671D51E9FB78500197C97 /* EKLecture1HomeWork.c in Sources */ = {isa = PBXBuildFile; fileRef = 456671D31E9FB78500197C97 /* EKLecture1HomeWork.c */; };
 		456DB3AA1E9C49F800909CE6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 456DB3A71E9C49F800909CE6 /* main.c */; };
 		456DB3B61E9C4ED300909CE6 /* EKNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = 456DB3B11E9C4ED300909CE6 /* EKNumbers.c */; };
 		456DB3B71E9C4ED300909CE6 /* EKPrinting.c in Sources */ = {isa = PBXBuildFile; fileRef = 456DB3B41E9C4ED300909CE6 /* EKPrinting.c */; };
@@ -28,6 +31,12 @@
 /* Begin PBXFileReference section */
 		456671C21E9CD5DA00197C97 /* EKSignedToUnsigned.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKSignedToUnsigned.c; sourceTree = "<group>"; };
 		456671C31E9CD5DA00197C97 /* EKSignedToUnsigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKSignedToUnsigned.h; sourceTree = "<group>"; };
+		456671CB1E9E574C00197C97 /* EKFunctionPrintTypes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKFunctionPrintTypes.c; sourceTree = "<group>"; };
+		456671CC1E9E574C00197C97 /* EKFunctionPrintTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKFunctionPrintTypes.h; sourceTree = "<group>"; };
+		456671CE1E9E682700197C97 /* html2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = html2.c; sourceTree = "<group>"; };
+		456671CF1E9E682700197C97 /* html2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = html2.h; sourceTree = "<group>"; };
+		456671D31E9FB78500197C97 /* EKLecture1HomeWork.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKLecture1HomeWork.c; sourceTree = "<group>"; };
+		456671D41E9FB78500197C97 /* EKLecture1HomeWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EKLecture1HomeWork.h; sourceTree = "<group>"; };
 		456DB3991E9C491700909CE6 /* EKPrinting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKPrinting; sourceTree = BUILT_PRODUCTS_DIR; };
 		456DB3A71E9C49F800909CE6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		456DB3B11E9C4ED300909CE6 /* EKNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = EKNumbers.c; sourceTree = "<group>"; };
@@ -56,6 +65,34 @@
 			path = EKSignedToUnsigned;
 			sourceTree = "<group>";
 		};
+		456671C91E9E551F00197C97 /* html2 */ = {
+			isa = PBXGroup;
+			children = (
+				456671CA1E9E56D900197C97 /* EKFunctionPrintTypes */,
+				456671CE1E9E682700197C97 /* html2.c */,
+				456671CF1E9E682700197C97 /* html2.h */,
+			);
+			path = html2;
+			sourceTree = "<group>";
+		};
+		456671CA1E9E56D900197C97 /* EKFunctionPrintTypes */ = {
+			isa = PBXGroup;
+			children = (
+				456671CB1E9E574C00197C97 /* EKFunctionPrintTypes.c */,
+				456671CC1E9E574C00197C97 /* EKFunctionPrintTypes.h */,
+			);
+			path = EKFunctionPrintTypes;
+			sourceTree = "<group>";
+		};
+		456671D21E9FB73700197C97 /* EKLecture1HomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				456671D31E9FB78500197C97 /* EKLecture1HomeWork.c */,
+				456671D41E9FB78500197C97 /* EKLecture1HomeWork.h */,
+			);
+			path = EKLecture1HomeWork;
+			sourceTree = "<group>";
+		};
 		456DB3901E9C491700909CE6 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +112,8 @@
 		456DB39B1E9C491700909CE6 /* EKPrinting */ = {
 			isa = PBXGroup;
 			children = (
+				456671D21E9FB73700197C97 /* EKLecture1HomeWork */,
+				456671C91E9E551F00197C97 /* html2 */,
 				456671C11E9CD5A000197C97 /* EKSignedToUnsigned */,
 				456DB3B01E9C4ED300909CE6 /* EKNumbers */,
 				456DB3B31E9C4ED300909CE6 /* EKPrinting */,
@@ -158,10 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456671CD1E9E574C00197C97 /* EKFunctionPrintTypes.c in Sources */,
 				456DB3B61E9C4ED300909CE6 /* EKNumbers.c in Sources */,
 				456DB3AA1E9C49F800909CE6 /* main.c in Sources */,
+				456671D01E9E682700197C97 /* html2.c in Sources */,
 				456DB3B71E9C4ED300909CE6 /* EKPrinting.c in Sources */,
 				456671C41E9CD5DA00197C97 /* EKSignedToUnsigned.c in Sources */,
+				456671D51E9FB78500197C97 /* EKLecture1HomeWork.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
