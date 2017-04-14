@@ -77,6 +77,8 @@ unShortVar %lu \n longVar %lu \n unLongVar %lu \n floatVar %lu \n doubleVar %lu 
     EKVariablesTest();
     EKPrintSizeofTypes();
     EKMethodMamaPapa();
+    EKStartMacroMethod();
+    EKTestMethodOffsetof();
     
     return 0;
 }
