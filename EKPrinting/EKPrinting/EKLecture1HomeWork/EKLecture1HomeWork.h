@@ -17,5 +17,5 @@ void EKMethodMamaPapa(void);
 void EKPrintMethodMamaPapa(int numbIteration, char *string);
 void EKStartMacroMethod(void);
 void EKTestMethodOffsetof(void);
-
+void EKMethodPrintByte(char byte);
 #endif /* EKLecture1HomeWork_h */
