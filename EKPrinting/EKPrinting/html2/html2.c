@@ -58,8 +58,8 @@ void EKMathTest(){
     printf("65 + ULLONG_MAX = %d \n",charVar);
 }
 
+//print name_types = value
 void EKVariablesTest(){
-    //print name_types = value
     short shortVar;
     unsigned short unShortVar;
     int intVar;

@@ -11,11 +11,15 @@
 
 #include <stdio.h>
 
+//print sizeof of types
+#define EKPrintSizeofTypesMacro(type) \
+void EKPrintSizeof##type(){\
+printf(#type" = %lu bytes\n", sizeof(type));\
+}
 
-void EKPrintSizeofTypes(void);
-void EKMethodMamaPapa(void);
-void EKPrintMethodMamaPapa(int numbIteration, char *string);
-void EKStartMacroMethod(void);
-void EKTestMethodOffsetof(void);
-void EKMethodPrintByte(char byte);
+void EKPrintMamaPapa(void);
+void EKPrintIterationNumber(int iterationCount);
+void EKPrintAnyString(char *printString);
+void EKStartMacro(void);
+
 #endif /* EKLecture1HomeWork_h */

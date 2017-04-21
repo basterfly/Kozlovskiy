@@ -38,5 +38,23 @@ void EKPrintParents(void) {
     result = (long)result % 7;//делить по модулю только целое. %-остаток от целочисленного деления
     doubleResult2 =result + (4.0 * doubleResult2)- 1.5 + 'A';
     printf("doubleResult2 = %f \n", doubleResult2);
-  
+    
+    //Print sizeof types by printf()
+    char charVar;
+    unsigned char unCharVar;
+    signed char sigCharVar;
+    int IntVar;
+    unsigned int unIntVar;
+    short shortVar;
+    unsigned short unShortVar;
+    long longVar;
+    unsigned long unLongVar;
+    float floatVar;
+    double doubleVar;
+    long double loDoubleVar;
+    printf(" charVar %lu \n unCharVar %lu \n sigCharVa %lu \n IntVar %lu \n unIntVar %lu \n shortVar %lu \n \
+           unShortVar %lu \n longVar %lu \n unLongVar %lu \n floatVar %lu \n doubleVar %lu \n loDoubleVar %lu \n",\
+           sizeof(charVar), sizeof(unCharVar), sizeof(sigCharVar), sizeof(IntVar), sizeof(unIntVar), \
+           sizeof(shortVar), sizeof(unShortVar), sizeof(longVar), sizeof(unLongVar), sizeof(floatVar), \
+           sizeof(doubleVar), sizeof(loDoubleVar));
 }
