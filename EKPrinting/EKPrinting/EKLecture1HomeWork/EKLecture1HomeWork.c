@@ -12,7 +12,7 @@
 #include "EKLecture1HomeWork.h"
 
 #define EKMacroMethod(type, specificator) \
-void EKMacroMethod##type(type var){ \
+void EKMacroMethod##type(type var) { \
     printf(#specificator "\n", var); \
 }
 
@@ -24,7 +24,7 @@ EKMacroMethod(char, %c);
 EKMacroMethod##type(var)
 
 //  Generate Macro Method
-void EKStartMacro(void){
+void EKStartMacro(void) {
     EKMacroCall(int, 5);
     EKMacroCall(float, 2.3);
     EKMacroCall(char, 'a');
@@ -38,7 +38,7 @@ void EKPrintMamaPapa(void){
             EKPrintAnyString("Mama");
         }
             
-        if (iterationCount % 5 == 0){
+        if (iterationCount % 5 == 0) {
             EKPrintAnyString("Papa");
         }
 
@@ -46,10 +46,10 @@ void EKPrintMamaPapa(void){
     }
 }
 
-void EKPrintIterationNumber(int iterationCount){
+void EKPrintIterationNumber(int iterationCount) {
     printf("%d - ", iterationCount);
 }
 
-void EKPrintAnyString(char *printString){
+void EKPrintAnyString(char *printString) {
     printf("%s", printString);
 }

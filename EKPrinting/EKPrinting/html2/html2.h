@@ -17,5 +17,4 @@ void EKDecrement(int * decrVar);
 void EKMathTest();
 void EKVariablesTest();
 
-
 #endif /* html2_h */

@@ -19,17 +19,5 @@ void EKStructArrayRelease(EKStructArray *array);
 void EKStructArrayAddObject(EKStructArray *array, EKStructArray *anotherArray);
 void EKStructArrayDeleteObjectAtIndex(EKStructArray *array, uint64_t index);
 EKStructArray *EKStructArrayGetObjectAtIndex(EKStructArray *array, uint64_t index);
-//
-//typedef int (*EKMathOperation)(int, int);
-//
-//int sum(int value1, int value2);
-//
-//int sub(int value1, int value2);
-//
-//int power(int value1, int value2);
-//
-//int division(int value1, int value2);
-//
-//int EKMath(int value1, int vlaue, EKMathOperation operation);
 
 #endif /* EKTaskStructArray_h */

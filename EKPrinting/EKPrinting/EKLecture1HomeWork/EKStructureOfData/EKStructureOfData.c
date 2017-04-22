@@ -39,7 +39,7 @@ typedef struct {
     };
 } EKStruct;
 
-void EKTestStructOffsetof(void){
+void EKTestStructOffsetof(void) {
     EKStruct structName;
     printf("offsetof %lu \n", offsetof(EKStruct, string));
     printf("sizeof %lu \n", sizeof(structName.string));

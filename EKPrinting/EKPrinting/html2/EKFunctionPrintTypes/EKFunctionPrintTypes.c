@@ -8,18 +8,18 @@
 
 #include "EKFunctionPrintTypes.h"
 
-void EKFunctionPrintInt(int intVar, char * intName ){
+void EKFunctionPrintInt(int intVar, char * intName ) {
     
     printf("%s - %d \n", intName, intVar);
 }
-void EKFunctionPrintFloat(float floatVar, char * floatName){
+void EKFunctionPrintFloat(float floatVar, char * floatName) {
     printf("%s - %f\n", floatName, floatVar);
 }
 
-void EKFunctionPrintChar(char charVar, char * charName){
+void EKFunctionPrintChar(char charVar, char * charName) {
     printf("%s - %c \n",charName, charVar);
 }
 
-void EKFunctionPrintString(char * string, char * stringName){
+void EKFunctionPrintString(char * string, char * stringName) {
     printf("%s - %s \n", stringName, string);
 }

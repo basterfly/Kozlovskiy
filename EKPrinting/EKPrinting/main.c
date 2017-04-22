@@ -4,8 +4,6 @@
 //
 //  Created by Egor on 10.04.17.
 //  Copyright © 2017 Yegor Kozlovskiy. All rights reserved.
-//
-
 
 #include <stdio.h>
 #include "EKPrinting.h" 
@@ -65,9 +63,6 @@ int main(int argc, const char * argv[]) {
         printf("equal \n");
     }
     EKStructArrayDeleteObjectAtIndex(array, 0);
-
-    
-    
     EKStructArrayRelease(array2);
     EKStructArrayRelease(array);
     

@@ -8,8 +8,8 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include "EKTaskStructArray.h"
 
+#include "EKTaskStructArray.h"
 
 //Создать структуру типа массив, которая бы реализовывала следующие требования:
 //1. Структура должна владеть указателем на массив элементов.
@@ -31,6 +31,7 @@ EKStructArray *EKStructArrayCreate(){
         array->refCounter = 1;
         array->data = calloc(10, sizeof(*(array->data)));
     }
+    
     return array;
 }
 

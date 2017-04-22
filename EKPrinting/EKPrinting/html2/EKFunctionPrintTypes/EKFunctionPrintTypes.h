@@ -16,6 +16,4 @@ void EKFunctionPrintFloat(float floatVar, char * floatName);
 void EKFunctionPrintChar(char charVar, char * charName);
 void EKFunctionPrintString(char * string, char * stringName);
 
-
-
 #endif /* EKFunctionPrintTypes_h */

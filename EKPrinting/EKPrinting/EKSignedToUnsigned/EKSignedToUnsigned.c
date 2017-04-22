@@ -9,9 +9,6 @@
 #include "EKSignedToUnsigned.h"
 
 void EKSignedToUnsigned(int64_t min, int64_t max) {
-    
-   // min = (min + max)+1 ;
-   // max = (min * -1)+ max;
-    
+   // min = (min + max)+1 // max = (min * -1)+ max;
     printf("Min=%llu, Max=%llu \n", (min + max)+1, (min * -1)+ max);
 }

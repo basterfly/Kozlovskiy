@@ -10,33 +10,29 @@
 #include "EKFunctionPrintTypes.h"
 #include "limits.h"
 
-void EKhtml2Tasks(void){
-    //    //робних чисел, символів, строк
-    
+//пробних чисел, символів, строк
+void EKhtml2Tasks(void) {
     int intVar = 10;
     char *intName = "int";
     EKFunctionPrintInt(intVar, intName);
-    
-        float floatVar = 3.14;
-        char *floatName = "float";
-        EKFunctionPrintFloat(floatVar, floatName);
-    
-        char charVar = 'a';
-        char *charName = "char";
-        EKFunctionPrintChar(charVar, charName);
-    
-        EKFunctionPrintString("string", "char string");
-
+    float floatVar = 3.14;
+    char *floatName = "float";
+    EKFunctionPrintFloat(floatVar, floatName);
+    char charVar = 'a';
+    char *charName = "char";
+    EKFunctionPrintChar(charVar, charName);
+    EKFunctionPrintString("string", "char string");
 }
+
 //Принимает 1 парамет и ведут себя как ++ --
-void EKIncrement(int *incrVar){
-    
+void EKIncrement(int *incrVar) {
     (*incrVar)++;
 }
 
-void EKDecrement(int *decrVar){
+void EKDecrement(int *decrVar) {
     (*decrVar)--;
 }
+
 //3а допомогою printf протестувати та пояснити, що буде:
 //- якщо ціле ділять на дробне;
 //- якщо дробне помножують на ціле;
@@ -44,7 +40,6 @@ void EKDecrement(int *decrVar){
 //- якщо у цілого беруть залишок від цілого (операція %);
 //- якщо до short додають int;
 //- якщо записати у менший тип більший тип з великим значенням (наприклад, max з limits.h);
-
 void EKMathTest(){
     printf("(5 / 2.3) = %f \n",(5 / 2.3));
     printf("(2.2 * 4) = %f \n",(2.2 * 4));
@@ -59,7 +54,7 @@ void EKMathTest(){
 }
 
 //print name_types = value
-void EKVariablesTest(){
+void EKVariablesTest() {
     short shortVar;
     unsigned short unShortVar;
     int intVar;
