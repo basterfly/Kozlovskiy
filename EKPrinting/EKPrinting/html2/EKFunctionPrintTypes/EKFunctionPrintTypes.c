@@ -9,9 +9,9 @@
 #include "EKFunctionPrintTypes.h"
 
 void EKFunctionPrintInt(int intVar, char * intName ) {
-    
     printf("%s - %d \n", intName, intVar);
 }
+
 void EKFunctionPrintFloat(float floatVar, char * floatName) {
     printf("%s - %f\n", floatName, floatVar);
 }

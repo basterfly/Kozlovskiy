@@ -4,6 +4,7 @@
 //
 //  Created by Egor on 10.04.17.
 //  Copyright © 2017 Yegor Kozlovskiy. All rights reserved.
+//
 
 #include <stdio.h>
 #include "EKPrinting.h" 
@@ -54,7 +55,6 @@ int main(int argc, const char * argv[]) {
     printf("\n");
     int intTestVar = 8;
     EKPrintMemory(&intTestVar, sizeof(intTestVar));
-    
     EKStructArray *array = EKStructArrayCreate();
     EKStructArray *array2 = EKStructArrayCreate();
     EKStructArrayAddObject(array, array2);
@@ -62,6 +62,7 @@ int main(int argc, const char * argv[]) {
     if (array2 == array3) {
         printf("equal \n");
     }
+    
     EKStructArrayDeleteObjectAtIndex(array, 0);
     EKStructArrayRelease(array2);
     EKStructArrayRelease(array);

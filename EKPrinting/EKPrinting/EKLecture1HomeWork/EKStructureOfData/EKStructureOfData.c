@@ -37,6 +37,7 @@ typedef struct {
             bool boolVar6 : 1;
         };
     };
+    
 } EKStruct;
 
 void EKTestStructOffsetof(void) {
@@ -75,6 +76,7 @@ void EKPrintByte(char *byte) {
         int shift = isBigendian ? bitsPerBytes - iterator -1 : iterator;
         printf("%d", 1 & ((*byte) >> shift));
     }
+    
     printf(" ");
 }
 
@@ -86,5 +88,6 @@ void EKPrintMemory(void *memory, size_t size) {
         int shift = isBigendian ? (int)size - iterator - 1 : iterator;
         EKPrintByte((char *)memory + shift);
     }
+    
     printf("\n");
 }
